@@ -1,0 +1,723 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* first section */
+
+.first_section {
+    background-image: url(image/1_hero_header/hero_header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: top center;
+}
+
+.header_bg {
+    background-image: url(image/1_hero_header/header_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding: 0 0 47px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+}
+
+.logo_a {
+    float: left;
+    margin: 8px 28px;
+}
+
+.logo {
+    width: 154px;
+}
+
+.nav_ul {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: 600;
+    margin: 0 0 0 148px;
+    padding: 45px 0 45px 0;
+}
+
+.nav_li {
+    float: left;
+    margin-left: 45px;
+}
+
+.nav_a:hover {
+    border-top: 3px solid #ffffff;
+    padding-top: 42px;
+}
+
+.nav_a {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+    text-decoration: none;
+}
+
+.icon_div {
+    float: right;
+    margin: 46px 46px 0 0;
+}
+
+.icon_a {
+    float: left;
+    margin: 0px 10px 0 6px;
+    font-size: 21px;
+    text-decoration: none;
+    color: #DAB33E;
+}
+
+#h1 {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
+    text-align: center;
+    font-size: 85px;
+    margin: 38px auto 0;
+    font-weight: 100;
+    width: 80%;
+    line-height: 114px;
+}
+
+.decorate_div {
+    text-align: center;
+    margin: 20px 0 25px;
+}
+.decorate_img {
+    width: 18%;
+    margin: 0 0 0 6px;
+}
+
+.btn_div {
+    text-align: center;
+    padding: 0 0 135px 0;
+}
+
+.book_btn {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 17px 49px;
+    display: inline-block;
+    margin: 3px 13px 0 13px;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu_btn {
+    background-color: rgba(275, 275, 275, 0.2);
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 17px 49px;
+    margin: 0px 13px 0 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.book_btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu_btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(275, 275, 275, 0.3);
+}
+
+/* second section */
+
+.second_section {
+    background-image: url(image/2_about/about_bg_img.png);
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_div {
+    padding: 52px 0 22px 0;
+    display: inline-block;
+}
+
+.about_left {
+    max-width: 45%;
+    float: left;
+}
+
+.about_left_part {
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.about_left_top {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    text-align: center;
+    font-size: 36px;
+    margin: 0px 0 21px 0px;
+    line-height: 24px;
+    word-spacing: -4px;
+}
+
+.about_decoration {
+    margin: auto;
+    max-width: 250px;
+}
+
+.about_text {
+    font-family: "Lato";
+    color: #4c4c4c;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 20px;
+    line-height: 23px;
+    word-spacing: -2px;
+    width: 90%;
+}
+
+.about_img_div {
+    padding-top: 28px;
+    max-width: 219px;
+    margin: 0 auto;
+}
+
+.about_img {
+    margin-left: 40px;
+    width: 208px;
+}
+
+.about_right {
+    max-width: 50%;
+    float: left;
+    margin-left: 5px;
+}
+
+.about_right_img {
+    width: 95%;
+}
+
+/* third section */
+
+.Ingredients_bg {
+    background-image: url(image/3_Igredients/Igredients_bg_img.png);
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Ingredients_div {
+    padding: 80px 0 92px;
+    display: inline-block;
+}
+
+.Ingredients {
+    width: 50%;
+    float: right;
+}
+
+.Ingredients_black_bg {
+    margin: 14px 64px 0 15px;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.Ingredients_content {
+    padding: 50px;
+}
+
+.Ingredients_heading {
+    color: #ffffff;
+    font-size: 34px;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.Ingredients_deco {
+    text-align: center;
+}
+
+
+.Ingredients_sub_text {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 15px;
+    text-align: center;
+    margin: 18px;
+    width: 92%;
+    line-height: 23px;
+}
+
+.Ingredients_images {
+    margin: 66px 0 19px 0;
+    text-align: center;
+}
+
+.Ingredients_img_1 {
+    display: inline-block;
+    border: 5px solid rgba(255, 255, 255, 0.09);
+    border-radius: 50%;
+    width: 24%;
+}
+
+.Ingredients_img_2 {
+    display: inline-block;
+    margin: 0 24px;
+    border: 5px solid rgba(255, 255, 255, 0.09);
+    border-radius: 50%;
+    width: 24%;
+}
+
+.Ingredients_img_3 {
+    display: inline-block;
+    border: 5px solid rgba(255, 255, 255, 0.09);
+    border-radius: 50%;
+    width: 24%;
+}
+
+/* fourth section */
+
+.fourth_section{
+    background-image: url(image/4_menu/manu_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.Menu_div {
+    padding-top: 80px;
+    padding-bottom: 64px;
+    margin: 0 22px;
+}
+
+.menu_left_part {
+    padding-left: 70px;
+    padding-right: 74px;
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.Appetisers_list {
+    padding-bottom: 22px;
+}
+
+.Starters_list {
+    padding-bottom: 21px;
+}
+
+.menu_headding {
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin: 17px 0;
+}
+
+.menu_decoration_img {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.Menu_spacing {
+    padding: 0 11px;
+    margin-bottom: 24px;
+}
+
+.Menu_name {
+    color: #c89f2d;
+    font-size: 21px;
+    font-family: "Yeseva One";
+    line-height: 24px;
+    margin: 9px 0;
+    float: left;
+}
+
+.Menu_price {
+    color: #c89f2d;
+    font-size: 21px;
+    font-family: "Yeseva One";
+    line-height: 24px;
+    margin: 9px 0;
+    float: right;
+}
+
+.Menu_UL {
+    max-width: 100%;
+    max-height: 1px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.Menu_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin: 4px 0;
+}
+
+.menu_right_part {
+    padding-left: 70px;
+    padding-right: 74px;
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.menu_special {
+    background-image: url(image/4_menu/yellow_line.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: absolute;
+    top: -19px;
+    right: 0px;
+}
+
+.menu_special span {
+    color: #f8fafa;
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 13px;
+}
+
+.square_line {
+    position: relative;
+}
+
+.square_line::before {
+    content: url(image/4_menu/square_line.png);
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    right: 1px;
+    top: 2px;
+}
+
+/* fifth section */
+
+.fifth_section {
+    background-image: url(image/5_Reviews/Reviews_bg_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.Guest_Reviews {
+    max-width: 730px;
+    margin: auto;
+    padding: 82px 0;
+}
+
+.Review_contant {
+    background-color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    margin: 12px 0px;
+    padding: 72px;
+}
+
+.Review_heading {
+    color: #ffffff;
+    font-size: 34px;
+    font-family: "Yeseva One";
+    margin: 0 0 16px;
+}
+
+.content_text {
+    font-size: 23px;
+    line-height: 43px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+    margin: 10px 0 0;
+}
+
+.content_text2 {
+    font-size: 17px;
+    line-height: 20px;
+    color: #dde0df;
+    font-family: 'Lato', sans-serif;
+    margin: 32px 0 28px;
+}
+
+.sixth_section {
+    background-image: url(image/6_Reservations/Reservations_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.Reservations_part {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 80px;
+    padding-bottom: 66px;
+}
+
+.Reservations {
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    margin: 21px 0;
+}
+
+.food_images {
+    text-align: center;
+    float: left;
+}
+
+.img_size {
+    margin: 0 11px 0 19px;
+    position: relative;
+    float: left;
+}
+
+.img_size img {
+    width: 100%;
+    transition: 0.6s all ease-in-out;
+    overflow: hidden;
+}
+
+.img_size img:hover {
+    filter: brightness(0.5)blur(0.5px);
+}
+
+.food_text{
+    position: absolute;
+    top: 40%;
+    left: -50%;
+    transform: rotate(90deg);
+    color: #ffffff;
+    font-size: 0px;
+    margin: 0;
+}
+
+.img_size:hover .food_text {
+    left: 7%;
+    transition: 0.6s all ease-in-out;
+    font-size: 40px;
+}
+
+.Reservations_content {
+    max-width: 430px;
+    width: 100%;
+    margin: auto;
+}
+
+.Reservations_deco_img {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.Reservations h5 {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    margin: 5px 0 0;
+}
+
+.Reservation_text_1 {
+    color: #4c4c4c;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 18px 0 0;
+}
+
+.Reservation_text_2 {
+    color: #4c4c4c;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+#form {
+    margin: 38px 0 30px;
+}
+
+.form_row {
+    margin-top: 18px;
+}
+
+.input_div {
+    float: left;
+    margin-right: 40px;
+    position: relative;
+    width: 44%;
+}
+
+
+.labels {
+    color: #c9a131;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input_data {
+    background-color: rgba(275, 275, 275, 0.3);
+    border: 1px solid #DEDFDF;
+    padding: 11px 23px 9px 13px;
+}
+
+.input_data_date {
+    width: 100%;
+}
+
+.selecte_menu {
+    color: #7c7c7c;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: italic;
+    width: 45%;
+}
+
+.form_book_btn {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form_book_btn > button {
+    color: #ffffff;
+    background-color: rgba( 201, 161, 49, 0.98);
+    font-size: 16px;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 34px 7px 39px;
+    width: 200px;
+}
+
+.form_book_btn > button:hover {
+    background-color: rgba( 201, 161, 49, 0.88);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* footer */
+
+footer {
+    background-color: #191919
+}
+
+.footer_div {
+    text-align: center;
+    padding: 58px 20px 67px;
+}
+
+.footer_left {
+    max-width: 33.333%;
+    width: 100%;
+    float: left;
+}
+
+.footer_left p{
+    width: 332px;
+    margin: 0 auto;
+}
+
+.footer_center {
+    max-width: 33.333%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.footer_right {
+    max-width: 33.333%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.footer_right p {
+    margin: 0 100px;
+}
+
+footer h6 {color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.footer_deco {
+    margin: 15px 0;
+}
+
+footer p {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;   
+    margin: 0; 
+}
+
+.card_icon {
+    margin: 50px auto 0;
+    max-width: 130px;
+}
+
+.card_icon a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 4px;
+}
+
+.social_icon {
+    max-width: 70px;
+    margin: 50px auto 0;
+}
+
+.social_icon a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 4px;
+}
